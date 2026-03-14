@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>pom.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+pom.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;project </span><span class="s1">xmlns</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0&quot;</span>
+         <span class="s1">xmlns:xsi</span><span class="s2">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+         <span class="s1">xsi:schemaLocation</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;modelVersion&gt;</span><span class="s3">4.0.0</span><span class="s0">&lt;/modelVersion&gt;</span>
+
+    <span class="s0">&lt;groupId&gt;</span><span class="s3">org.example</span><span class="s0">&lt;/groupId&gt;</span>
+    <span class="s0">&lt;artifactId&gt;</span><span class="s3">TP1</span><span class="s0">&lt;/artifactId&gt;</span>
+    <span class="s0">&lt;version&gt;</span><span class="s3">1.0-SNAPSHOT</span><span class="s0">&lt;/version&gt;</span>
+
+    <span class="s0">&lt;properties&gt;</span>
+        <span class="s0">&lt;project.build.sourceEncoding&gt;</span><span class="s3">UTF-8</span><span class="s0">&lt;/project.build.sourceEncoding&gt;</span>
+        <span class="s0">&lt;kotlin.code.style&gt;</span><span class="s3">official</span><span class="s0">&lt;/kotlin.code.style&gt;</span>
+        <span class="s0">&lt;kotlin.compiler.jvmTarget&gt;</span><span class="s3">1.8</span><span class="s0">&lt;/kotlin.compiler.jvmTarget&gt;</span>
+    <span class="s0">&lt;/properties&gt;</span>
+
+    <span class="s0">&lt;repositories&gt;</span>
+        <span class="s0">&lt;repository&gt;</span>
+            <span class="s0">&lt;id&gt;</span><span class="s3">mavenCentral</span><span class="s0">&lt;/id&gt;</span>
+            <span class="s0">&lt;url&gt;</span><span class="s3">https://repo1.maven.org/maven2/</span><span class="s0">&lt;/url&gt;</span>
+        <span class="s0">&lt;/repository&gt;</span>
+    <span class="s0">&lt;/repositories&gt;</span>
+
+    <span class="s0">&lt;build&gt;</span>
+        <span class="s0">&lt;sourceDirectory&gt;</span><span class="s3">src/main/kotlin</span><span class="s0">&lt;/sourceDirectory&gt;</span>
+        <span class="s0">&lt;testSourceDirectory&gt;</span><span class="s3">src/test/kotlin</span><span class="s0">&lt;/testSourceDirectory&gt;</span>
+        <span class="s0">&lt;plugins&gt;</span>
+            <span class="s0">&lt;plugin&gt;</span>
+                <span class="s0">&lt;groupId&gt;</span><span class="s3">org.jetbrains.kotlin</span><span class="s0">&lt;/groupId&gt;</span>
+                <span class="s0">&lt;artifactId&gt;</span><span class="s3">kotlin-maven-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                <span class="s0">&lt;version&gt;</span><span class="s3">2.3.0</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;executions&gt;</span>
+                    <span class="s0">&lt;execution&gt;</span>
+                        <span class="s0">&lt;id&gt;</span><span class="s3">compile</span><span class="s0">&lt;/id&gt;</span>
+                        <span class="s0">&lt;phase&gt;</span><span class="s3">compile</span><span class="s0">&lt;/phase&gt;</span>
+                        <span class="s0">&lt;goals&gt;</span>
+                            <span class="s0">&lt;goal&gt;</span><span class="s3">compile</span><span class="s0">&lt;/goal&gt;</span>
+                        <span class="s0">&lt;/goals&gt;</span>
+                    <span class="s0">&lt;/execution&gt;</span>
+                    <span class="s0">&lt;execution&gt;</span>
+                        <span class="s0">&lt;id&gt;</span><span class="s3">test-compile</span><span class="s0">&lt;/id&gt;</span>
+                        <span class="s0">&lt;phase&gt;</span><span class="s3">test-compile</span><span class="s0">&lt;/phase&gt;</span>
+                        <span class="s0">&lt;goals&gt;</span>
+                            <span class="s0">&lt;goal&gt;</span><span class="s3">test-compile</span><span class="s0">&lt;/goal&gt;</span>
+                        <span class="s0">&lt;/goals&gt;</span>
+                    <span class="s0">&lt;/execution&gt;</span>
+                <span class="s0">&lt;/executions&gt;</span>
+            <span class="s0">&lt;/plugin&gt;</span>
+            <span class="s0">&lt;plugin&gt;</span>
+                <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-surefire-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                <span class="s0">&lt;version&gt;</span><span class="s3">2.22.2</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;/plugin&gt;</span>
+            <span class="s0">&lt;plugin&gt;</span>
+                <span class="s0">&lt;artifactId&gt;</span><span class="s3">maven-failsafe-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                <span class="s0">&lt;version&gt;</span><span class="s3">2.22.2</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;/plugin&gt;</span>
+            <span class="s0">&lt;plugin&gt;</span>
+                <span class="s0">&lt;groupId&gt;</span><span class="s3">org.codehaus.mojo</span><span class="s0">&lt;/groupId&gt;</span>
+                <span class="s0">&lt;artifactId&gt;</span><span class="s3">exec-maven-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+                <span class="s0">&lt;version&gt;</span><span class="s3">1.6.0</span><span class="s0">&lt;/version&gt;</span>
+                <span class="s0">&lt;configuration&gt;</span>
+                    <span class="s0">&lt;mainClass&gt;</span><span class="s3">MainKt</span><span class="s0">&lt;/mainClass&gt;</span>
+                <span class="s0">&lt;/configuration&gt;</span>
+            <span class="s0">&lt;/plugin&gt;</span>
+        <span class="s0">&lt;/plugins&gt;</span>
+    <span class="s0">&lt;/build&gt;</span>
+
+    <span class="s0">&lt;dependencies&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.jetbrains.kotlin</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">kotlin-test-junit5</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">2.3.0</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;scope&gt;</span><span class="s3">test</span><span class="s0">&lt;/scope&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.junit.jupiter</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">junit-jupiter</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">5.10.0</span><span class="s0">&lt;/version&gt;</span>
+            <span class="s0">&lt;scope&gt;</span><span class="s3">test</span><span class="s0">&lt;/scope&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+        <span class="s0">&lt;dependency&gt;</span>
+            <span class="s0">&lt;groupId&gt;</span><span class="s3">org.jetbrains.kotlin</span><span class="s0">&lt;/groupId&gt;</span>
+            <span class="s0">&lt;artifactId&gt;</span><span class="s3">kotlin-stdlib</span><span class="s0">&lt;/artifactId&gt;</span>
+            <span class="s0">&lt;version&gt;</span><span class="s3">2.3.0</span><span class="s0">&lt;/version&gt;</span>
+        <span class="s0">&lt;/dependency&gt;</span>
+    <span class="s0">&lt;/dependencies&gt;</span>
+
+<span class="s0">&lt;/project&gt;</span></pre>
+</body>
+</html>
