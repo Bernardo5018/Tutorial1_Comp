@@ -1,3 +1,5 @@
+# Relatório do Projeto — Aplicação com AI
+
 Curso: LEIC
 aluno: Bernardo Rocha
 Data: 10/03/2026
