@@ -1,6 +1,6 @@
 # Tutorial 1 – Hello Kotlin, Hello Mobile Android World!
 
-**Curso:** Computação Móvel  
+**Curso:** LEIC
 **Aluno:** Bernardo Rocha 
 **Data:** 15/03/2026 
 **Repository URL:** [Preencher]  
