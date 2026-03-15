@@ -1,8 +1,8 @@
 # Tutorial 1 – Hello Kotlin, Hello Mobile Android World!
 
-**Course:** Computação Móvel  
-**Student(s):** [Preencher]  
-**Date:** [Preencher]  
+**Curso:** Computação Móvel  
+**Aluno:** Bernardo Rocha 
+**Data:** 15/03/2026 
 **Repository URL:** [Preencher]  
 
 ---
