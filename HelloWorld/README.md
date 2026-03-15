@@ -1,8 +1,8 @@
 # Relatório do Projeto — Hello Kotlin, Hello Mobile Android World
 
-**Curso:** ____________________________________  
-**Aluno(s):** __________________________________  
-**Data:** ______________________________________  
+**Curso:** LEIC
+**Aluno(s):** Bernardo Rocha
+**Data:** 15/03/2026 
 **URL do Repositório:** ______________________________________
 
 ---
