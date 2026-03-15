@@ -1,4 +1,4 @@
-# Tutorial 1 – Hello Kotlin, Hello Mobile Android World!
+# Tutorial 1 – Hello Kotlin, Primeiros exercicios no kotlin
 
 **Curso:** LEIC
 **Aluno:** Bernardo Rocha 
