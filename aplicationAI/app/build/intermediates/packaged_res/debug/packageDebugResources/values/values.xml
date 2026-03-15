@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#F0E14A</color>
+    <color name="black">#FF000000</color>
+    <color name="primary">#97CE4C</color>
+    <color name="primary_dark">#E4A788</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Rick and Morty Explorer</string>
+    <style name="Base.Theme.RickAndMortyExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+    <style name="Theme.RickAndMortyExplorer" parent="Base.Theme.RickAndMortyExplorer"/>
+</resources>
