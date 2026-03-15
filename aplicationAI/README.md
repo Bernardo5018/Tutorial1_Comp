@@ -1,6 +1,6 @@
-Course: ____________________
-Student(s): ____________________
-Date: ____________________
+Curso: LEIC
+aluno: Bernardo Rocha
+Data: 10/03/2026
 Repository URL: ____________________
 
 # 1. Introdução
