@@ -1,10 +1,11 @@
 # Relatório do Projeto — Aplicação com AI
 
-Curso: LEIC
-aluno: Bernardo Rocha
-Data: 10/03/2026
-Repository URL: ____________________
+**Curso:** LEIC
+**Aluno(s):** Bernardo Rocha
+**Data:** 15/03/2026 
+**URL do Repositório:** ______________________________________
 
+---
 # 1. Introdução
 
 Este projeto foi desenvolvido no âmbito da aprendizagem de Computação Móvel / desenvolvimento Android, com o objetivo principal de construir uma aplicação móvel funcional utilizando Kotlin e Android Studio.
