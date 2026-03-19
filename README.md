@@ -3,7 +3,7 @@
 **Curso:** LEIC  
 **Aluno:** Bernardo Rocha  
 **Data:** 15/03/2026  
-**URL do Repositório:** ______________________________________
+**URL do Repositório:** https://github.com/Bernardo5018/Tutorial1_Comp/tree/main
 
 ---
 
